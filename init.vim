@@ -4,7 +4,7 @@
 call plug#begin()
 
 " Aesthetics - Main
-Plug 'dracula/vim', { 'commit': '147f389f4275cec4ef43ebc25e2011c57b45cc00' }
+Plug 'dracula/vim'
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/goyo.vim'
 
@@ -28,12 +28,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'jesseleite/vim-agriculture'
 Plug 'sheerun/vim-polyglot'
 Plug 'chrisbra/Colorizer'
-Plug 'heavenshell/vim-pydocstring'
 Plug 'vim-scripts/loremipsum'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'metakirby5/codi.vim'
-Plug 'dkarter/bullets.vim'
 Plug 'jlanzarotta/bufexplorer'
 
 " Entertainment
@@ -173,14 +170,10 @@ xmap <leader>a gaip*
 nmap <leader>a gaip*
 nmap <leader>s <C-w>s<C-w>j:terminal<CR>
 nmap <leader>vs <C-w>v<C-w>l:terminal<CR>
-nmap <leader>d <Plug>(pydocstring)
 nmap <leader>f :GitFiles<CR>
 nmap <leader>g :Goyo<CR>
 nmap <leader>h :RainbowParentheses!!<CR>
 nmap <leader>j :set filetype=journal<CR>
-nmap <leader>k :ColorToggle<CR>
-nmap <leader>l :Limelight!!<CR>
-xmap <leader>l :Limelight!!<CR>
 autocmd FileType python nmap <leader>x :0,$!~/.config/nvim/env/bin/python -m yapf<CR>
 "nmap <leader>n :HackerNews best<CR>J
 nmap <silent> <leader><leader> :noh<CR>
