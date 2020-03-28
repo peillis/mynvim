@@ -54,7 +54,6 @@ set termguicolors
 
 " Transparent Background (For i3 and compton)
 highlight Normal guibg=NONE ctermbg=NONE
-highlight LineNr guibg=NONE ctermbg=NONE
 
 """ Other Configurations
 filetype plugin indent on
