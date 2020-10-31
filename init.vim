@@ -193,4 +193,4 @@ nnoremap <space> za
 set wildignore+=*/_build/*,*/deps/*
 set autoread
 "set mouse=a
-nnoremap <leader>p orequire IEx; IEx.pry
+nnoremap <leader>p orequire IEx; IEx.pry<ESC>
