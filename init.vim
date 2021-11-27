@@ -9,6 +9,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'junegunn/goyo.vim'
 
 " Functionalities
+Plug 'elixir-editors/vim-elixir'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
